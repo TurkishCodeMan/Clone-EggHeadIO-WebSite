@@ -11,6 +11,6 @@ export default PageWrapper;
 
 <style scoped lang="postcss">
 .page-wrapper {
-  @apply md:container md:mx-auto md:px-4 flex flex-col w-full min-h-screen;
+  @apply md:container md:mx-auto lg:px-24 flex flex-col w-full min-h-screen;
 }
 </style>
