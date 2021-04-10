@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --background: #111827;
+  --baslikText: #e5e7eb;
+  --backgroundCard: #1f2937;
+  --gray: #4b5563;
+  --buttonBlue: #2563eb;
+  --textGreen: #7adaa1;
+}
+
+@layer utilities {
+  .btn {
+    background: #2563eb;
+    color: #e5e7eb;
+
+  }
+}

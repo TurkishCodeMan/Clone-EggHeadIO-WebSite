@@ -1,0 +1,141 @@
+$background: #111827;
+$baslikText: #e5e7eb;
+$backgroundCard: #1f2937;
+$gray: #4b5563;
+$buttonBlue: #2563eb;
+$textGreen: #7adaa1;
+
+.container {
+  background: $background;
+  min-height: 100vh;
+  padding: 0px 15px;
+}
+@media screen and (min-width:640px) {
+  .container{
+    padding:0px 300px;
+  }
+}
+
+.btn {
+  color: #fff;
+  padding: 8px;
+  border-radius: 7px;
+  background: $buttonBlue;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+input {
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+//HEADER
+header {
+  display: flex;
+  width: 100%;
+  padding: 15px 0px;
+  justify-content: space-between;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    & > h3 {
+      margin-left: 8px;
+      color: $baslikText;
+    }
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    & > input {
+      padding: 6px;
+      border-radius: 8px;
+      height: 40px;
+      background: $backgroundCard;
+
+      &::placeholder {
+        padding-left: 20px;
+      }
+    }
+    & > img {
+      position: absolute;
+      color: $gray;
+    }
+    & > .btn-search {
+      position: absolute;
+      right: 0;
+      height: 100%;
+      overflow: hidden;
+      border-radius: 0;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+  }
+
+  .header-end {
+    .btn-online {
+      padding: 12px;
+      margin: 0px 12px;
+    }
+    & a {
+      color: $baslikText;
+    }
+  }
+}
+//HEADER
+
+//FİRST
+.first {
+  .open {
+    display: flex;
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: start;
+
+
+      &>h1{
+        font-size: 40px;
+        color: white;
+        font-weight: 800;
+        
+      }
+
+      .new-course {
+        color: $textGreen;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .person {
+        display: flex;
+        align-items: center;
+
+        & > img {
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        & .person-name {
+          color: $baslikText;
+          margin: 0px 12px;
+        }
+      }
+
+      & .detail {
+        margin: 12px 0px;
+        color: $baslikText;
+      }
+    }
+  }
+}
+//FİRST
