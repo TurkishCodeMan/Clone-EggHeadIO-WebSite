@@ -11,7 +11,7 @@ module.exports = {
         "background": '#111827',
         "baslikText": '#e5e7eb',
         "backgroundCard": "#1f2937",
-        "gray": " #4b5563",
+        "grayText": " #4b5563",
         "buttonBlue": "#2563eb",
         "textGreen": "#7adaa1",
         "hoverCard":"#374151",
