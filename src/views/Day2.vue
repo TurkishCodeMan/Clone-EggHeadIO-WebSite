@@ -6,7 +6,7 @@
     <Content1 />
 
     <section class="content-2 my-4">
-      <div class="grid grid-cols-3 gap-5">
+      <div class="grid grid-cols-2 lg:grid-cols-3 gap-5">
         <div class="col-span-2">
           <div class="cards w-full grid grid-cols-3 gap-5">
             <div
@@ -61,9 +61,9 @@
             </div>
           </div>
         </div>
-        <div class="col-span-1">
+        <div class="w-full col-span-2 lg:col-span-1">
           <div
-            class="end-card rounded-md bg-backgroundCard text-baslikText py-6 px-6"
+            class="end-card w-full rounded-md bg-backgroundCard text-baslikText py-6 px-6"
           >
             <div class="head text-left">
               <small class="text-sm">INTRODUCTIONS</small>
